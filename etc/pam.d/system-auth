@@ -1,5 +1,5 @@
 # Begin /etc/pam.d/system-auth
 
-auth      required    pam_unix.so
+auth      required    pam_unix.so nullok
 
 # End /etc/pam.d/system-auth
